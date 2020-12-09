@@ -21,11 +21,11 @@ export default class ApiCalling extends Component {
     render() {
         const mylist=this.state.myData
         const countryList =mylist.map(list=>{
-        return(<li>{list.name}</li>)
+        return(<li style={{margin:"10px", backgroundColor:"blue"}}>{list.name}</li>)
         })
         return (
             <div>
-                <ul>
+                <ul style={{color:"black"}}>
                     {countryList}
                 </ul>
 
