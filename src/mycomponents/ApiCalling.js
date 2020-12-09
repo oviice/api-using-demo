@@ -25,7 +25,7 @@ export default class ApiCalling extends Component {
         })
         return (
             <div>
-                <ul style={{color:"black"}}>
+                <ul style={{color:"white"}}>
                     {countryList}
                 </ul>
 
